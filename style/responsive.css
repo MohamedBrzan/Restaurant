@@ -1,0 +1,155 @@
+@media (min-width: 320px) and (max-width: 767px) {
+  .home-text h1 {
+    font-size: 36px;
+  }
+
+  .home-text p {
+    font-size: 14px;
+  }
+
+  .about-text,
+  .about-img {
+    width: 100%;
+  }
+
+  .about-text {
+    width: 100%;
+  }
+
+  .about-text h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .about-text p {
+    font-size: 13px;
+    text-align: center;
+    padding: 0 8px;
+  }
+
+  .about-text a {
+    width: 70%;
+    text-align: center;
+    margin: 0 0 0 14%;
+  }
+
+  .about-img {
+    order: -1;
+  }
+
+  .menu-tab-item {
+    width: 23%;
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+  }
+
+  .menu-item {
+    width: 100%;
+  }
+
+  .menu-item h3 {
+    padding: 0 10px;
+  }
+
+  .menu-item:nth-last-of-type(2) {
+    border-bottom: 1px dashed var(--darkLight);
+  }
+
+  .test-item {
+    width: 100%;
+  }
+
+  .test-item h3 {
+    font-size: 17px;
+  }
+
+  .test-item span {
+    font-size: 14px;
+  }
+
+  .test-item p {
+    font-size: 13px;
+  }
+
+  .team-item {
+    width: 100%;
+  }
+
+  .team-item:not(:last-of-type) {
+    margin: 0 0 75px;
+  }
+
+  .footer-item {
+    width: 100%;
+  }
+
+  .footer-item h6 {
+    margin: auto;
+  }
+
+  .footer-item p {
+    margin: 0 0 50px;
+  }
+
+  .img-text {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 758px) and (max-width: 1000px) {
+  .about-img .img-box::before {
+    top: 130px;
+    left: 180px;
+    width: 20%;
+    height: 20%;
+  }
+
+  .img-text {
+    top: 38%;
+    left: 50%;
+    font-size: 20px;
+  }
+
+  .test-item:first-of-type {
+    width: 100%;
+  }
+
+  .test-item {
+    width: calc((100% / 2) - 30px);
+  }
+
+  .team-item {
+    width: calc(100% / 2);
+  }
+
+  .team-item:last-of-type {
+    top: 100px;
+    left: 200px;
+    margin: 0 0 50px;
+  }
+
+  .footer-item {
+    margin: 0;
+    padding: 0;
+    width: 33.333333%;
+  }
+
+  .social-links i {
+    margin: 0 8px 0 0;
+    padding: 13px;
+  }
+}
+
+@media (min-width: 991px) {
+  .footer-item {
+    margin: 0;
+    padding: 0;
+    width: 33.333333%;
+  }
+
+  .social-links i {
+    margin: 0 8px 0 0;
+    padding: 13px;
+  }
+}
